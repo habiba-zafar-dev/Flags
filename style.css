@@ -1,0 +1,140 @@
+
+ 
+ body {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      background: #b7a8f9;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .flag-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+
+    .flag {
+      margin: 10px 0;
+      border: 2px solid #000;
+    }
+
+    /* Azad Jammu and Kashmir Flag */
+    .ajk-flag {
+      width: 380px;
+      height: 240px;
+      position: relative;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .ajk-top-section {
+      display: flex;
+      width: 100%;
+      height: 50%;
+    }
+
+    .orange-box {
+      width: 50%;
+      background: #ff9933;
+    }
+
+    .green-box {
+      width: 50%;
+      background: #01411c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .moon-and-star {
+      width: 80px;
+      height: auto;
+      transform: rotate(-45deg);
+    }
+
+    .ajk-stripes {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ajk-stripe {
+      width: 100%;
+      height: calc(100% / 7);
+    }
+
+    .ajk-stripe.green {
+      background: #01411c;
+    }
+
+    .ajk-stripe.white {
+      background: #fff;
+    }
+
+    /* Pakistan Flag */
+    .pak-flag {
+      width: 300px;
+      height: 200px;
+      display: flex;
+    }
+
+    .white-section {
+      width: 33.33%;
+      background-color: #fff;
+    }
+
+    .green-section {
+      width: 66.67%;
+      background-color: #026826;
+      position: relative;
+    }
+
+    .green-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Palestine Flag */
+    .pal-flag {
+      width: 480px;
+      height: 240px;
+      position: relative;
+    }
+
+    .pal-stripe {
+      width: 100%;
+      height: calc(100% / 3);
+    }
+
+    .pal-stripe.black {
+      background: #000;
+    }
+
+    .pal-stripe.white {
+      background: #fff;
+    }
+
+    .pal-stripe.green {
+      background: #007a3d;
+    }
+
+    .triangle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-top: 120px solid transparent;
+      border-bottom: 120px solid transparent;
+      border-left: 240px solid #ce1126;
+    }
